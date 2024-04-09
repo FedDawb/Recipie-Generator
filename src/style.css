@@ -200,9 +200,10 @@ main p {
 }
 
 .container h2 {
+    padding-top: 5rem;
     padding-bottom: 3rem;
     font-family: "Poppins", sans-serif;
-    color: #fff;
+    color: #272044;
     text-align: center;
 }
 
@@ -291,13 +292,13 @@ footer {
 footer h3 {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    color: #110800;
+    color: #faf8f7;
 } 
 
 footer p {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    color: #110800;
+    color: #faf8f7;
 }
 
 /* Hidden Elements */
