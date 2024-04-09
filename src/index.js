@@ -1,11 +1,18 @@
 function displayNewText(response) {
-    new Typewriter('#newtext', {
+    const typewriter = new Typewriter ('#newtext', {
         strings: response.data.answer,
         autoStart: true,
         delay: 1,
         cursor: "",
     }); 
-    
+
+      typewriter.typeOut(response.data.answer)
+       .then(() => {
+            // Add a delay before removing the cursor
+            setTimeout(() => {
+                typewriter.removeCursor();
+            }, 1000);
+        });
 }
 
 
