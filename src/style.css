@@ -3,28 +3,40 @@ body {
     background: #110800;
 }
 
-.container {
+.container, h3 {
     max-width: 1400px;
     margin: 0 auto;
+    color: #5c5757;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-center, h3{
+    color:#5c5757;
+}
 .grid {
     display: grid;
     grid-gap: 64px;
 }
 
 .img-responsive {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
+    height: auto;
 }
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
+
+open-image{
+    width:  35%; height: 40%;
+    border-radius: 50% ;
+        }
+
+
 
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
@@ -128,21 +140,9 @@ header a {
 }
 
 
-.video-container {
-    max-width: 60%;
-    /* Adjust to desired width */
-    margin: 0 auto;
-    /* Center-align the video */
-}
 
-video {
-    width: 75%;
-    /* Make the video fill its container */
-    height: auto;
-    /* Maintain aspect ratio */
-    display: block;
-    /* Ensure block-level display */
-}
+
+
 /* Main Content Styles */
 main {
     background-color: white;
@@ -154,7 +154,7 @@ main h2 {
     line-height: 1.5;
     margin: 0;
     letter-spacing: 5px;
-    color: #272044;
+    color: #b2b1b6;
     opacity: 0.3;
     text-transform: uppercase;
 }
@@ -196,8 +196,7 @@ main p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: black;
-    /* Corrected syntax for background-color */
+    background-color: rgb(43, 41, 39);
     align-items: stretch;
     /*margin: 8rem auto;*/
     max-width: 90%;
@@ -228,7 +227,6 @@ main p {
     font-weight: bold;
     text-align: center;
 }
-
 
 /* Form Styles */
 form {
@@ -315,6 +313,12 @@ footer p {
     font-family: "Poppins", sans-serif;
     text-align: center;
     color: #faf8f7;
+}
+
+footer container-fluid {
+    text-align: center;
+    font-size: medium;
+    padding-left: 5rem;
 }
 
 /* Hidden Elements */
