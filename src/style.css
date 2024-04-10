@@ -82,7 +82,7 @@ section.secondary {
 
 /* Header Styles */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/barcelona-sunset.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/foodspice.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -127,6 +127,22 @@ header a {
     background: white;
 }
 
+
+.video-container {
+    max-width: 60%;
+    /* Adjust to desired width */
+    margin: 0 auto;
+    /* Center-align the video */
+}
+
+video {
+    width: 75%;
+    /* Make the video fill its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensure block-level display */
+}
 /* Main Content Styles */
 main {
     background-color: white;
